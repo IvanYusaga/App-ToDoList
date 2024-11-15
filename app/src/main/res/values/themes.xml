@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToDoList" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/soft_purple</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="appBarLayoutStyle">
+            @style/Theme.AppCompat.Light.NoActionBar
+        </item>
+    
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+    </style>
+    
+    <style name="Theme.ToDoList" parent="Base.Theme.ToDoList" />
+    
+    <style name="Theme.ToDoList.MaterialCardView" parent="Theme.ToDoList">
+        <item name="cardCornerRadius">25dp</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    
+    <style name="Theme.ToDoList.TextView" parent="Theme.ToDoList">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
